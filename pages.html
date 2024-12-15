@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: white;
+            color: black;
+        }
+        
+        .links ul {
+            list-style: none;
+            padding: 0;
+        }
+        .links li {
+            margin: 10px 0;
+        }
+        .links a {
+            text-decoration: none;
+            color: blue;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        /* Navigation Buttons */
+        .button {
+            position: fixed;
+            top: 10px;
+            background-color: white;
+            color: blue;
+            border: 1px solid blue;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            text-align: center;
+        }
+       
+        .button:hover {
+            background-color: blue;
+            color: white;
+        }
+        .home-button {
+            left: 10px;
+        }
+        .pages-button {
+            left: 80px;
+        }
+        .back-to-top {
+            right: 10px;
+        }
+
+        /* Add spacing above the heading */
+        h1 {
+            margin-top: 50px; /* Increase the space above the heading */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dynamic Navbar -->
+    <div id="navbar"></div>
+    <script>
+        // Dynamically load the navbar from navbar.html
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    </script>
+
+    <h1>All Pages</h1>
+    <div class="links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page1.html">Writings</a></li>
+            <li><a href="page2.html">Musings</a></li>
+            <li><a href="page3.html">Projects</a></li>
+            <li><a href="pages.html">All Pages</a></li>
+        </ul>
+    </div>
+</body>
+</html>

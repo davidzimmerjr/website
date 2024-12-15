@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+        }
+
+        .container {
+            width: 80%; /* Restrict width of content to 80% of the viewport */
+            margin: 0 auto; /* Center the container horizontally */
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            display: block;
+            margin-top: 80px;
+            text-decoration: none;
+            color: blue;
+            text-align: center;
+        }
+
+        .button {
+            position: fixed;
+            top: 10px;
+            background-color: white;
+            color: blue;
+            border: 1px solid blue;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: blue;
+            color: white;
+        }
+        .home-button {
+            left: 10px;
+        }
+        .pages-button {
+            left: 80px;
+        }
+        .back-to-top {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dynamic Navbar -->
+    <div id="navbar"></div>
+    <script>
+        // Dynamically load the navbar from navbar.html
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    </script>
+
+    <div class="container">
+        <h1>Musings</h1>
+        <p>Welcome to my musings! Here, I she seen at the base of the television screen. The Wii Remote[j] is the primary controller for the console. The remote contains a MEMS-based three-dimension accelerometer, along with infrared detection sensors located at the far end of the controller.[93][94] The accelerometers allow the Wii Remote to recognize its orientation after being moved from a resting position, translating that motion into gesture recognition for a game.[93] For example, the pack-in game Wii Sports includes a ten-pin bowling game that had the player hold the Wii Remote and perform a delivery of a ball; the Wii Remote could account for the player's position relative to the Sensor Bar, and their arm and wrist rotation to apply speed and spin to the virtual ball's delivery on screen.[95] The infrared detectors are used to track emissions from LEDs in the included Sensor Bar, which is placed just above or below the television display, as to track the relative orientation of the Wii Remote towards the screen. This gives the Wii Remote the ability to act as a pointing device like a computer mouse on the television screen, with an approximate 15 feet (4.6 m) range for accurate detection.[93][96] In addition, the Wii Remote features traditional controller inputs, including a directional pad (d-pad), three face action buttons and a shoulder trigger, and four system-related buttons include a power switch. The Wii Remote connects to the Wii through Bluetooth with an approximate 30 feet (9.1 m) range,[96] communicating the sensor and control information to the console unit. The Wii Remote includes an internal speaker and a rumble pack that can be triggered by a game to provide feedback directly to the player's hand.[93] Up to four Wii Remotes could connect wirelessly to a Wii, with LED lights on each remote indicating which controller number the Remote had connected as.[96] The remote is battery-operated, and when the Remote is not powered on, these LED lights can display the remaining battery power.[92] A wrist-mounted strap is included with the Wii Remote, with one end affixed to the bottom of the unit. Nintendo strongly encouraged players to use the strap in case the Wii Remote accidentally slipped out of their hands. Nintendo recalled the original straps in December 2006 and provided a free, stronger strap as a replacement, as well as packaging the new strap in future bundles after the company faced legal challenges from users that reported damage to their homes from the Wii Remote slipping from their hands while playing.[97][98] In October 2007, Nintendo also added a silicon-based Wii Remote Jacket to shipments of the Wii and Wii Remote, as well as a free offering for existing users. The Jacket wraps around the bulk of the remote but leaves access to the various buttons and connectors, providing a stickier surface in the user's grip to further reduce the chance of the Remote falling out of the player's hand.[99] Accessories can be connected to a Wii Remote through a proprietary port at the base of the controller.[96] The Wii shipped with the bundled Nunchuk—a handheld unit with an accelerometer, analog stick, and two trigger buttons—which connected to this port on the Wii Remote via a 4 feet (1.2 m) cable. Players hold both the Wii Remote and Nunchuk in separate hands to control supported games.[94][100] The Wii MotionPlus accessory plugs into the port at the base of the Wii Remote and augments the existing sensors with gyroscopes to allow for finer motion detection.[92] The MotionPlus accessory was released in June 2009 with a number of new games directly supporting this new functionality, including Wii Sports Resort which included the accessory as part of a bundle.[101] The MotionPlus functionality was later incorporated into a revision of the controller called the Wii Remote Plus, first released in October 2010.[102][103][104] A number of third-party controller manufacturers developed their own lower-cost versions of the Wii Remote, though these generally were less accurate or lacked the sensitivity that Nintendo's unit had.[105] Other controllers and accessories The Original Classic Controller, hooked up to the Wii Remote The Classic Controller is an extension for the Wii Remote, released alongside the Wii in November 2006. Its form factor is similar to classic gamepads such as that for the Super Nintendo Entertainment System, with a d-pad, four face b Bar, and their arm and wrist rotation to apply speed and spin to the virtual ball's delivery on screen.[95] The infrared detectors are used to track emissions from LEDs in the included Sensor Bar, which is placed just above or below the television display, as to track the relative orientation of the Wii Remote towards the screen. This gives the Wii Remote the ability to act as a pointing device like a computer mouse on the television screen, with an approximate 15 feet (4.6 m) range for accurate detection.[93][96] In addition, the Wii Remote features traditional controller inputs, including a directional pad (d-pad), three face action buttons and a shoulder trigger, and four system-related buttons include a power switch. The Wii Remote connects to the Wii through Bluetooth with an approximate 30 feet (9.1 m) range,[96] communicating the sensor and control information to the console unit. The Wii Remote includes an internal speaker and a rumble pack that can be triggered by a game to provide feedback directly to the player's hand.[93] Up to four Wii Remotes could connect wirelessly to a Wii, with LED lights on each remote indicating which controller number the Remote had connected as.[96] The remote is battery-operated, and when the Remote is not powered on, these LED lights can display the remaining battery power.[92] A wrist-mounted strap is included with the Wii Remote, with one end affixed to the bottom of the unit. Nintendo strongly encouraged players to use the strap in case the Wii Remote accidentally slipped out of their hands. Nintendo recalled the original straps in December 2006 and provided a free, stronger strap as a replacement, as well as packaging the new strap in future bundles after the company faced legal challenges from users that reported damage to their homes from the Wii Remote slipping from their hands while playing.[97][98] In October 2007, Nintendo also added a silicon-based Wii Remote Jacket to shipments of the Wii and Wii Remote, as well as a free offering for existing users. The Jacket wraps around the bulk of the remote but leaves access to the various buttons and connectors, providing a stickier surface in the user's grip to further reduce the chance of the Remote falling out of the player's hand.[99] Accessories can be connected to a Wii Remote through a proprietary port at the base of the controller.[96] The Wii shipped with the bundled Nunchuk—a handheld unit with an accelerometer, analog stick, and two trigger buttons—which connected to this port on the Wii Remote via a 4 feet (1.2 m) cable. Players hold both the Wii Remote and Nunchuk in separate hands to control supported games.[94][100] The Wii MotionPlus accessory plugs into the port at the base of the Wii Remote and augments the existing sensors with gyroscopes to allow for finer motion detection.[92] The MotionPlus accessory was released in June 2009 with a number of new games directly supporting this new functionality, including Wii Sports Resort which included the accessory as part of a bundle.[101] The MotionPlus functionality was later incorporated into a revision of the controller called the Wii Remote Plus, first released in October 2010.[102][103][104] A number of third-party controller manufacturers developed their own lower-cost versions of the Wii Remote, though these generally were less accurate or lacked the sensitivity that Nintendo's unit had.[105] Other controllers and accessories The Original Classic Controller, hooked up to the Wii Remote The Classic Controller is an extension for the Wii Remote, released alongside the Wii in November 200 Bar, and their arm and wrist rotation to apply speed and spin to the virtual ball's delivery on screen.[95] The infrared detectors are used to track emissions from LEDs in the included Sensor Bar, which is placed just above or below the television display, as to track the relative orientation of the Wii Remote towards the screen. This gives the Wii Remote the ability to act as a pointing device like a computer mouse on the television screen, with an approximate 15 feet (4.6 m) range for accurate detection.[93][96] In addition, the Wii Remote features traditional controller inputs, including a directional pad (d-pad), three face action buttons and a shoulder trigger, and four system-related buttons include a power switch. The Wii Remote connects to the Wii through Bluetooth with an approximate 30 feet (9.1 m) range,[96] communicating the sensor and control information to the console unit. The Wii Remote includes an internal speaker and a rumble pack that can be triggered by a game to provide feedback directly to the player's hand.[93] Up to four Wii Remotes could connect wirelessly to a Wii, with LED lights on each remote indicating which controller number the Remote had connected as.[96] The remote is battery-operated, and when the Remote is not powered on, these LED lights can display the remaining battery power.[92] A wrist-mounted strap is included with the Wii Remote, with one end affixed to the bottom of the unit. Nintendo strongly encouraged players to use the strap in case the Wii Remote accidentally slipped out of their hands. Nintendo recalled the original straps in December 2006 and provided a free, stronger strap as a replacement, as well as packaging the new strap in future bundles after the company faced legal challenges from users that reported damage to their homes from the Wii Remote slipping from their hands while playing.[97][98] In October 2007, Nintendo also added a silicon-based Wii Remote Jacket to shipments of the Wii and Wii Remote, as well as a free offering for existing users. The Jacket wraps around the bulk of the remote but leaves access to the various buttons and connectors, providing a stickier surface in the user's grip to further reduce the chance of the Remote falling out of the player's hand.[99] Accessories can be connected to a Wii Remote through a proprietary port at the base of the controller.[96] The Wii shipped with the bundled Nunchuk—a handheld unit with an accelerometer, analog stick, and two trigger buttons—which connected to this port on the Wii Remote via a 4 feet (1.2 m) cable. Players hold both the Wii Remote and Nunchuk in separate hands to control supported games.[94][100] The Wii MotionPlus accessory plugs into the port at the base of the Wii Remote and augments the existing sensors with gyroscopes to allow for finer motion detection.[92] The MotionPlus accessory was released in June 2009 with a number of new games directly supporting this new functionality, including Wii Sports Resort which included the accessory as part of a bundle.[101] The MotionPlus functionality was later incorporated into a revision of the controller called the Wii Remote Plus, first released in October 2010.[102][103][104] A number of third-party controller manufacturers developed their own lower-cost versions of the Wii Remote, though these generally were less accurate or lacked the sensitivity that Nintendo's unit had.[105] Other controllers and accessories The Original Classic Controller, hooked up to the Wii Remote The Classic Controller is an extension for the Wii Remote, released alongside the Wii in November 200uttons, Start and Select buttons alongside the Wii connection button, and two shoulder buttons. Aare random thoughts, interesting ideas, and snippets of inspiration that cross my mind.</p>
+        <a href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>
